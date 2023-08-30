@@ -31,7 +31,7 @@ def clip_videos(source_path, save_path, untrack_csv):
         else:
             untracked[line[0]] = [[start, end, int(line[-1])]]
 
-    for item in tqdm(sorted(os.listdir(source_path))[:17]):
+    for item in tqdm(sorted(os.listdir(source_path))):
         if item in ['4e07da0c-450f-4c37-95e9-e793cb5d8f7f.mp4',
                     '5819e52c-4e12-4f86-ad69-76fc215dfbcb.mp4',
                     '83081c5a-8456-44d8-af67-280034f8f0a6.mp4',

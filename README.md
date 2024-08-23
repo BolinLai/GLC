@@ -1,6 +1,8 @@
 # Global-Local Correlation for Egocentric Gaze Estimation
 
-This is the official codes for the paper "In the Eye of Transformer: Global-Local Correlation for Egocentric Gaze Estimation". ([Project Page](https://bolinlai.github.io/GLC-EgoGazeEst/) | [BMVC Paper](https://bmvc2022.mpi-inf.mpg.de/0227.pdf) | [IJCV Paper](https://link.springer.com/article/10.1007/s11263-023-01879-7))
+### BMVC 2022 (Spotlight, Best Student Paper), IJCV 2023
+
+### [Project Page](https://bolinlai.github.io/GLC-EgoGazeEst/) | [BMVC Paper](https://bmvc2022.mpi-inf.mpg.de/0227.pdf) | [IJCV Paper](https://link.springer.com/article/10.1007/s11263-023-01879-7)
 
 **[Update]** Please check out our latest work about egocentric gaze forecasting -- ["Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation"](https://bolinlai.github.io/CSTS-EgoGazeAnticipation/).
 

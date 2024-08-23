@@ -29,7 +29,7 @@ egtea
 
 1. The Ego4D dataset could be downloaded following the [official instructions](https://ego4d-data.org/docs/start-here/).
 
-2. We only need to download the videos with gaze annotations. The labels and video ids can be found [here](https://ego4d-data.org/docs/data/gaze/).
+2. We only need to download the videos with gaze annotations. The labels and video ids can be downloaded [here](https://ego4d-data.org/docs/data/gaze/).
 
 3. Gaze annotations are organized in a bunch of csv files. Each file corresponds to a video. Unfortunately, Ego4D hasn't provided a command to download all of these videos yet. You need to download videos via the video ids (i.e. the name of each csv file) using the [CLI tool](https://ego4d-data.org/docs/CLI/) and `--video_uids`.
 
@@ -50,4 +50,4 @@ Ego4D
    |_ ...
 ```
 
-5. Enter `data` directory and replace the path of Ego4D dataset in `preprocessing.py` to the path on your computer. Then run `preprocessing.py` to get video clips and gaze annotation in each frame. They are saved in the folders `clips.gaze` and `gaze_frame_label`. We also provide the frame-level label here.
+5. Enter `data` directory and replace the path of Ego4D dataset in `preprocessing.py` to the path on your computer. Then run `preprocessing.py` to get video clips and gaze annotation in each frame. They are saved in the folders `clips.gaze` and `gaze_frame_label`.

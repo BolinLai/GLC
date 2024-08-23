@@ -4,7 +4,7 @@
 
 ### [Project Page](https://bolinlai.github.io/GLC-EgoGazeEst/) | [BMVC Paper](https://bmvc2022.mpi-inf.mpg.de/0227.pdf) | [IJCV Paper](https://link.springer.com/article/10.1007/s11263-023-01879-7)
 
-**[Update]** Please check out our latest work about egocentric gaze forecasting -- ["Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation"](https://bolinlai.github.io/CSTS-EgoGazeAnticipation/).
+**[Update]** Please check out our latest work in ECCV 2024 about egocentric gaze forecasting -- ["Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation"](https://bolinlai.github.io/CSTS-EgoGazeAnticipation/).
 
 **[Update]** This work was accepted by International Journal of Computer Vision (IJCV).
 
@@ -27,10 +27,12 @@ You may follow the instructions in [DATASET.md](slowfast/datasets/DATASET.md) to
 Follow the example in [GETTING_STARTED.md](GETTING_STARTED.md) to start training your own model.
 
 ## Pretrained Weights
+
 We have released our pretrained GLC model with best performance on EGTEA and Ego4D. You can download via these links [[EGTEA weights](https://drive.google.com/file/d/15XVipU1CqoosyvPU1vfcG0w2LuLQecF1/view?usp=sharing) | [Ego4D weights](https://drive.google.com/file/d/1zQdZuV4OowEJxBZAAWr_MuZcN7LJujOw/view?usp=sharing)].
 
 
 ## Citation
+
 If you find our work useful in your research, please use the following BibTeX entry for citation.
 ```BibTeX
 @article{lai2022eye,

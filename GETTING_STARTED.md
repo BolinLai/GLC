@@ -11,7 +11,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python tools/run_net.py \
  --init_method tcp://localhost:9877 \
  --cfg configs/Egtea/MVIT_B_16x4_CONV.yaml \
  TRAIN.BATCH_SIZE 16 \
- TEST.BATCH_SIZE 128 \
+ TEST.ENABLE False \
  NUM_GPUS 4 \
  TRAIN.CHECKPOINT_FILE_PATH /path/to/pretrained/K400_MVIT_B_16x4_CONV.pyth \
  OUTPUT_DIR checkpoints/GLC
@@ -52,3 +52,5 @@ CUDA_VISIBLE_DEVICES=4 python tools/run_net.py \
 ```
 
 You can also set `DATA.PATH_PREFIX` in configs directly.
+
+You may find it's hard to fully reproduce the results if you train the model again, even though the seed is already fixed. We also observed this issue but failed to fix it. It may be an internal bug in the slowfast codebase, which we build our own model on. However, the difference should be small, and you are still able to get the same number as reported in the paper by running inference with our released weights.

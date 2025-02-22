@@ -4,6 +4,8 @@
 
 ### [Project Page](https://bolinlai.github.io/GLC-EgoGazeEst/) | [BMVC Paper](https://bmvc2022.mpi-inf.mpg.de/0227.pdf) | [IJCV Paper](https://link.springer.com/article/10.1007/s11263-023-01879-7)
 
+#### [Bolin Lai](https://bolinlai.github.io/), [Miao Liu](https://aptx4869lm.github.io/), [Fiona Ryan](https://fkryan.github.io/), [James M. Rehg](https://rehg.org/)
+
 **[Update]** Please check out our latest work in ECCV 2024 about egocentric gaze forecasting -- ["Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation"](https://bolinlai.github.io/CSTS-EgoGazeAnticipation/).
 
 **[Update]** This work was accepted by International Journal of Computer Vision (IJCV).
